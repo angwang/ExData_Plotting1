@@ -6,7 +6,7 @@ png(filename = "plot4.png", width = 480, height = 480,
     units = "px", pointsize = 12, bg = "white")
 par(mfrow = c(2, 2))
 
-plot(DateTime, d$Global_active_power, type="l", xlab="", ylab="Global Active Power (kilowatts)")
+plot(DateTime, d$Global_active_power, type="l", xlab="", ylab="Global Active Power")
 
 plot(DateTime, d$Voltage, type="l", xlab="datetime", ylab="Voltage")
 
